@@ -48,28 +48,24 @@
 // loop();
 // // Hello Code Nation * 5
 
-// Challenge 2
+// // Challenge 2
 
-// let add = (num1, num2) => {
-//   return num1 + num2;
-// };
-// let totals = add;
+// const add = (num1, num2) => {
+//     return num1 + num2;
+//   };
 
-// let totalValue = () => {
-//   for (let i = 0; i < 5; i++) {
-//     let totalValue = () => {
-//       add(2, 4) + totals(3, 5);
-//       return totalValue;
-//     };
-//   }
-//   return totalValue();
-// };
-// console.log(totalValue());
-//
-// Don't understand the question
+// const output = () => {
+//     let newOutput = 0
+//     for(let i = 0; i < 5; i++){
+//         newOutput = newOutput + add(2,3);
+//     }
+//     return newOutput;
+// }
 
+// console.log(output())
+// //Should output 25 (ie (2+3)*5 )
 
-// Challenge 3
+// // Challenge 3
 
 // let numbers = [3, 4, 5, 6, 7];
 
@@ -82,20 +78,20 @@
 // console.log(newArray)
 
 
-// Challenge 4
+// // Challenge 4
 
-const multiply = (a,b) => {
-    return a*b
-}
-const add = (a,b) => {
-    return a+b
-}
-const divide = (a,b) => {
-    return a/b
-}
-const subtract = (a,b) => {
-    return a-b
-}
+// const multiply = (a,b) => {
+//     return a*b
+// }
+// const add = (a,b) => {
+//     return a+b
+// }
+// const divide = (a,b) => {
+//     return a/b
+// }
+// const subtract = (a,b) => {
+//     return a-b
+// }
 
 // const doMath = (num1) => {
 //     return (num2, fn) => {
@@ -103,4 +99,5 @@ const subtract = (a,b) => {
 //     }
 // }
 
-console.log(divide(8,4))
+// console.log(doMath)
+// // I will be honest, didn't fully understand the objective of this challenge
